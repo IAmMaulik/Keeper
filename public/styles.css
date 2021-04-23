@@ -8,14 +8,14 @@ html {
 }
 body {
   background: #eee;
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 
 header {
   background-color: #f5ba13;
-  margin: auto -16px;
-  padding: 16px 32px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 0.625rem 0 rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
@@ -28,7 +28,7 @@ footer {
   position: absolute;
   text-align: center;
   bottom: 0;
-  width: 100%;
+  width: 98%;
   height: 2.5rem;
 }
 
@@ -37,11 +37,11 @@ footer p {
 }
 .note {
   background: #fff;
-  border-radius: 7px;
-  box-shadow: 0 2px 5px #ccc;
-  padding: 10px;
-  width: 240px;
-  margin: 16px;
+  border-radius: 0.4375rem;
+  box-shadow: 0 0.125rem 0.3125rem #ccc;
+  padding: 0.625rem;
+  width: 15rem;
+  margin: 1rem;
   float: left;
 }
 .note h1 {
