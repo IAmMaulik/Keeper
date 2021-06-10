@@ -1,13 +1,12 @@
 import React from "react";
 
-const currentDate = new Date().getFullYear();
-
-const Footer = () => {
+function Footer() {
+  const year = new Date().getFullYear();
   return (
     <footer>
-      <p>Copyright &copy; {currentDate}</p>
+      <p>Copyright ⓒ {year}</p>
     </footer>
   );
-};
+}
 
 export default Footer;
