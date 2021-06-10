@@ -117,3 +117,5 @@ dist
 
 *.zip
 *.cph
+firebase.js
+.firebase
