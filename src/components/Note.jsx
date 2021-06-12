@@ -1,10 +1,10 @@
 import React from "react";
 import DeleteIcon from "@material-ui/icons/Delete";
 
-function Note(props) {
-  function handleClick() {
+const Note = (props) => {
+  const handleClick = () => {
     props.onDelete(props.id);
-  }
+  };
 
   return (
     <div className="note">
@@ -15,6 +15,6 @@ function Note(props) {
       </button>
     </div>
   );
-}
+};
 
 export default Note;
